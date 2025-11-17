@@ -72,7 +72,7 @@ def acc_segmentation(data):
 
 
 # load example file to test embedding
-csv_file_path = '/content/part13dev1.csv'
+csv_file_path = r'FORTH_TRACE_DATASET/part13/part13dev1.csv' 
 csv_data = np.loadtxt(csv_file_path, delimiter=',')
 
 original_segments, activities = acc_segmentation(csv_data)
