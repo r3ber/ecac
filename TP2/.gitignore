@@ -1,2 +1,4 @@
 all_data.npy
 /__pycache__
+windows.npy
+features_dataset.csv
